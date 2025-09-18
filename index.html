@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+
+  <head>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Akshit Tyagi</title>
+
+    <link rel="stylesheet" href="files/styles.css">
+    <link rel="stylesheet" href="files/pyg.css">
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="images/fp2.jpg" height=416 width=202/><p/>
+        <a href="files/cvLatest.pdf" style="color: #000000"><h1>Akshit Tyagi</h1></a>
+        <!--
+        <p class="view">
+        <a href="https://twitter.com/adityagrover_"> <img src="./images/twitter.png" height=40 width=40 /></a>
+      </p>-->
+              
+       <!--
+
+        <a href="./etal.html" style="color: #000000">Et al.</a> <br>
+        <a href="./cv.html" style="color: #000000">CV</a>
+        </p>
+        
+        <p class="view">
+        <a href="./contact.html" style="color: #000000">Contact</a>
+        </p> -->
+
+      </header>
+      <section>
+
+<h2>Summary</h2>
+<p>I am an ML Engineer at Google Research working on creating ML models for healthcare applications. I graduated with an MS CS from the College of Information and Computer Sciences<a href="https://www.cics.umass.edu/">(CICS)</a> at <a href="http://www.umass.edu">UMass, Amherst</a>. Before that, I was an undergrad at <a href="http://www.iitd.ac.in/">IIT, Delhi</a>. You can find my resume <a href="https://akshittyagi.github.io/files/cvLatest.pdf">here</a>.
+	
+<p> I am interested broadly in the field of Theoretical Machine Learning and NLP and have worked in projects involving computer vision, natural language processing and reinforcement learning. Some of my research areas are:
+	<ul>
+		<li>Bayesian Calibration in the learning of neural networks</li>
+		<li>Causal inference for medical diagnosis on multi-modal data
+		<li>Natural Language Understanding for smart assistants like Alexa
+	</ul>
+
+<!-- <p> Specifically, my work lies in the area of Deep Learning applied to solving(or trying to solve) NLP problems. As part of my undergraduate thesis I am working with
+  <a href="http://www.cse.iitd.ernet.in/~mausam">Prof. Mausam</a> on using Open Information Extraction for Fact Based Question Answering. In the Summer of 2017,
+  I worked with <a href="https://in.linkedin.com/in/sumit-negi-47262413">Sumit Negi</a> at Amazon for developing a word embedding based moderation pipeline for advertisements on the Amazon Marketplace.
+<p>Apart from my academic pursuits I am fascinated by aviation and also I like playing the drums.</p> -->
+
+
+
+
+<p>
+<p>
+<h2>Major Projects and Internships</h2>
+
+<ol>
+<li><h4>Faster Bayesian Parameter estimation for Neural nets</h4>
+   Currently working on making the process of MCMC sampling for bayesian parameter estimation quicker. Starting off from the work of <a href="https://arxiv.org/abs/1506.04416">bayesian dark knowledge</a>, we want to come up with estimators more robust to dataset uncertainty, while keeping the inference time for the estimation process to be the same or better.
+	</li>
+<br>
+	
+<li><h4>Causal Inference models for multi-model Medical Diagnosis data</h4>
+   Currently working on building hierarchical bayesian diagnostic models for <a href="https://mimic.physionet.org">MIMIC dataset</a>. We are working on formalizing the problem as a causal inference problem and investigating the advantages such a formulation can have.
+	</li>
+<br>	
+	
+<li><h4>Building models for Noisy Conversational Question Answering</h4>
+   Worked with Alexa's Implicit Memory team on finding out the best way to integrate noise robustness in text based Q&A models using transformers and ELMo embeddings. We add noise to  the <a href="https://stanfordnlp.github.io/coqa/">CoQA</a> dataset, creating a noisy version of CoQA. Evaluating models like <a href="https://arxiv.org/abs/1810.06683">FlowQA</a> on noisy-CoQA exposes the problems with modern text based NLP models to structured noise coming through speech recognition and ambient noise sources. We use stabilization of layers to get noise robust embeddings for models and are continuing the work to build in robustness for such models.
+	</li>
+<br>	
+
+<li><h4>Natural Language Understanding through Intent Classification</h4>
+    Worked with Alexa's Spoken Language Understanding team on building a fast intent classifier. This will be integrated with the voice assistant as a tool to identify the intent 
+    of the utterance spoken by the user in a dialogue form. We were able to build in an early exiting strategy, that can be integrated with LSTMs and affine neural networks, traditionally used for such tasks. We are able to show that much shallower networks are able to perform reasonably well on the task, while being significantly faster and smaller in the number of parameters. Accepted for conference proceedings at ICASSP 2020. <a href="https://arxiv.org/abs/1912.01728">Link to paper</a>.
+	</li>
+<br>
+    <!-- <li><h4> OpenIE(Open Information Extraction) for Fact Based Question Answering </h4>
+      I am currently working on using OpenIE to extract meaningful tuples out of a knowledge base to be used for answering 4th-8th grade science based factoidal questions.
+      This work is built on top of <a href="https://arxiv.org/pdf/1704.05572.pdf">Answering Complex Questions Using Open Information Extraction</a>
+
+      </li>
+      <br> -->
+<li><h4> Getting better at Game Playing by transfer of skill </h4>
+  Worked on transfer learning in the context of game playing. Transfer Learning has been used to learn policies from 10 of the 11 Atari games and use these as policy initiliasers for the last game. 
+  A generative model is fit for the simulations of the first ten\\& and then fine-tuned by Joint Training and Feature Extraction for the eleventh game. Results show promising transfer of policy in the context of Atari games.      
+	</li>
+	<br>
+<li><h4> WordVector Based Moderation Pipeline for Amazon Marketplace </h4>
+We developed an end-to-end distributed pipeline for scoring the risk factor of a specific advertisment campaign on the Amazon Marketplace. This uses the text description of the ad and the associated photograph.
+Using these two, we developed a feature extractor to encode the risk of the advertisement and then use an ensemble of regressors to give the majority score of the advertisment. This was used in conjunction with the manual moderation team to make it
+more efficient for them to score only those ads on which our pipeline wasn't confident enough.
+</li>
+<br>
+
+<li><h4> Minimax Bot for playing the game of <a href="http://cheapass.com/tak/">Tak</a></h4>
+The created bot uses Minimax to search over all the possible set of game states, and selects the best ones using a utility function. The utility function has been trained by seeing which features affect the quality of gameplay the most. The code and a description of the strategy used can be found <a href="https://github.com/akshittyagi/TakBot">here</a>
+</li>
+<br>
+
+<li> <h4>Using Genetic Algorithms for approximately solving the Traveling Salesman Problem</h4>
+  A specific tour of the travelling salesman was modelled as a gene for the Genetic Algorithm(GA). This gene was then mutated using two different crossover techniques: CX and PMX; and both the types of offsprings were included in the final population for the next generation.
+  Fitness of a gene was the Laplace smoothened reciprocal of the total distance of the tour. The crossover process was parallelised thus allowing for very large starting populations and also made the GA approach the maxima in a small number of iterations.
+  For more on the algorithm and the code go <a href="https://github.com/akshittyagi/tsp">here</a>.
+</li>
+  <br>
+  
+
+<li> <h4>Local Search Algorithms with Parallelization</h4>
+Implemented a set of Local Search algorithms including: HillClimibingWithRandomRestarts, HillClimbingwithTabu, BeamSearch,
+BeamSearchWithTabu and BeamSearchWithRandomRestarts. This is used to search for the global maxima for the cost of a resource allocation problem. Parallelization was done to introduce three threads to update a common max value, to make searching more time efficient. The code can be found <a href="https://github.com/akshittyagi/TowerAllocationusingAI">here</a>
+</li>
+<br>
+
+<li> <h4>Echo State Networks for Stock Prediction</h4>
+We use an Echo State Network or a reservoir RNN for capturing the movement of a specific stock. The echo state network takes in the input as the stock price of the previous day, the learned state of the echo state network and outputs the predicted value of the index on the current day. The code for the ESN can be found <a href="https://github.com/akshittyagi/StockPred">here</a>
+</li>
+  
+	</ol>
+<p>
+<p>
+
+<h2>Other Projects and Apps</h2>
+<ul>
+  <li><h4>Sparse Matrix Vector Multiplication</h4>
+    Built a parallelised module for multiplying a sparse matrix with a dense vector. This use case is commmonly seen in Deep Learning libraries with vector calculus dictating many of the matrices in use to be sparse.
+    The Matrix was represented as a Compressed Sparse Row(CSR), and the calculations were henceforth parallelised for the dot product. Using CUDA allowed for device level and global level data and functionality separation.
+    Code can be found <a href="https://github.com/akshittyagi/sparseMatVecMul">here</a>.
+  </li>
+  <br>
+
+  <li><h4>Physics Engine for a Simulator Game</h4>
+   Built a C# application for the universal Windows environment. We designed a PhysX Engine from scratch for a space simulator with gravity and multi-partilce interactions. This was packaged as a game and won the Runners Up at Microsoft's Code.Fun.Do hackathon.
+   Choosing to develop a customised PhysX Engine over Unity gave us more speed and resulted in a smoother user experience. Code for this app can be found <a href="https://github.com/akshittyagi/beynew">here</a>.
+   You can also see a demo video <a href="files/Level5timeout.mp4">here</a>.
+  </li>
+  <br>
+
+  <li><h4>Android application for Moodle</h4>
+    We developed an android app for the learning management system used at IIT Delhi- Moodle. This was done as an assignment as proof-of-concept for porting the moodle system to a mobile-friendly environment. web2py was used for the server-side handling of the users and their registration and modification of data. Code can be found <a href="https://github.com/akshittyagi/MoodlePlus">here</a>.  
+  </li>
+   <br>
+</ul>
+
+<h2> Teaching Experience</h2>
+<ul>
+  <li>Fall Semester 2017- Undergrad TA for ELL311: Communication Engineering</li>
+  <li>Spring Semester 2018- Undergrad TA for MTL106: Probability and Stochastic Processes</li>
+  <li>Spring Semester 2019- Grad TA for CS683: Artifical Intelligence</li>
+	
+	<li>Fall Semester 2019- Grad TA for CS589: Machine Learning</li>
+
+</ul>
+      </section>
+
+    </div>
+
+        
+  </body>
+</html>
