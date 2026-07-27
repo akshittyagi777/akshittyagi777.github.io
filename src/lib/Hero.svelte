@@ -22,7 +22,7 @@
 				<p class="description">
 					I work on cellular phenotyping from high-content microscopy — including using cell images
 					to learn what toxic presentations in cells look like, and using that to predict toxic
-					structures in drug molecules. MS CS from UMass Amherst.
+					structures in drug molecules. MS CS from UMass Amherst, BTech from IIT Delhi.
 				</p>
 			</div>
 		</div>

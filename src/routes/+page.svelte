@@ -9,7 +9,7 @@
 
 <svelte:head>
 	<title>Akshit Tyagi - Founding MTS @ Axiom</title>
-	<meta name="description" content="Founding Member of Technical Staff at Axiom, working on foundation models for biology, autonomy and healthcare. MS CS from UMass Amherst." />
+	<meta name="description" content="Founding Member of Technical Staff at Axiom, working on foundation models for biology, autonomy and healthcare. MS CS from UMass Amherst, BTech from IIT Delhi." />
 </svelte:head>
 
 <main>
