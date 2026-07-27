@@ -14,15 +14,26 @@
 			tags: ["Foundation Models", "Microscopy", "Toxicity Prediction", "Multimodal LLMs"]
 		},
 		{
-			period: "May 2022 - Dec 2024",
+			period: "Jul 2023 - 2024",
 			title: "Research Engineer",
-			company: "Google Health",
-			summary: "Building models for EHR data",
+			company: "Helm AI",
+			summary: "Using deep teaching for foundation models in autonomous vehicles",
 			bullets: [
-				"Built algorithms to understand the medical condition of a patient based on EHR data",
-				"Trained ML models to understand tabular data and large language models for doctors' notes"
+				"Trained and fine-tuned UNets, Latent Diffusion Models and DINOv2 for perception and generative simulation to augment real-world data",
+				"Used generative simulation to build physics-informed dash-cam videos for augmenting training data"
 			],
-			tags: ["Healthcare", "EHR", "LLMs"]
+			tags: ["Autonomous Vehicles", "Diffusion Models", "DINOv2", "Perception"]
+		},
+		{
+			period: "May 2022 - Jul 2023",
+			title: "Research Engineer",
+			company: "Google DeepMind",
+			summary: "Google Health: building models for EHR data",
+			bullets: [
+				"Built algorithms to infer patient medical condition from EHR data using T5 transformers",
+				"Improved model stability for clinical risk prediction; work published at ML4H 2022"
+			],
+			tags: ["Healthcare", "EHR", "Transformers"]
 		},
 		{
 			period: "Nov 2021 - Mar 2022",
@@ -51,7 +62,7 @@
 			period: "Jul 2020 - Jan 2021",
 			title: "AI Resident",
 			company: "X, the moonshot factory",
-			summary: "Worked on ultra low power TinyML as part of a stealth mode project",
+			summary: "Ultra-low-power TinyML for iyo",
 			bullets: [],
 			tags: ["TinyML"]
 		},
