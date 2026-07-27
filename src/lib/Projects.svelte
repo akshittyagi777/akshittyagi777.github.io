@@ -3,14 +3,14 @@
 		{
 			title: "Faster Bayesian Parameter estimation for Neural nets",
 			description: "Currently working on making the process of MCMC sampling for bayesian parameter estimation quicker. Starting off from the work of bayesian dark knowledge, we want to come up with estimators more robust to dataset uncertainty, while keeping the inference time for the estimation process to be the same or better.",
-			link: "https://arxiv.org/abs/1506.04416",
-			linkText: "Link to paper",
 			tags: ["Bayesian Learning", "MCMC", "Neural Networks"]
 		},
 		{
-			title: "Causal Inference models for multi-model Medical Diagnosis data",
-			description: "Currently working on building hierarchical bayesian diagnostic models for MIMIC dataset. We are working on formalizing the problem as a causal inference problem and investigating the advantages such a formulation can have.",
-			tags: ["Causal Inference", "Healthcare", "Bayesian Models"]
+			title: "Instability in clinical risk stratification models using deep learning",
+			description: "Studied how clinical risk stratification models built with deep learning behave under retraining and data shift, and how that instability affects the predictions such models produce in deployment. Published at ML4H 2022 with collaborators at Google Health and Stanford.",
+			link: "https://proceedings.mlr.press/v193/lopez-martinez22a.html",
+			linkText: "Link to paper",
+			tags: ["Healthcare", "Deep Learning", "ML4H 2022"]
 		},
 		{
 			title: "Building models for Noisy Conversational Question Answering",
