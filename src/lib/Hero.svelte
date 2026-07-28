@@ -12,7 +12,7 @@
 	<div class="container">
 		<div class="hero-content">
 			<div class="hero-image" class:animate={mounted}>
-				<img src="/images/fp2.jpg" alt="Akshit Tyagi" />
+				<img src="/images/profile.jpg" alt="Akshit Tyagi" />
 				<div class="image-decoration"></div>
 			</div>
 			<div class="hero-text" class:animate={mounted}>
