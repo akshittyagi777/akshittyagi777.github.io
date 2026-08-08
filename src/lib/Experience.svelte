@@ -4,14 +4,13 @@
 			period: "Jan 2025 - Present",
 			title: "Founding Member of Technical Staff",
 			company: "Axiom",
-			summary: "Foundation models for cellular phenotyping and drug discovery",
+			summary: "Multimodal foundation models for cellular phenotyping and drug safety",
 			bullets: [
-				"Developed segmentation models to detect and quantify structural / morphological changes in cells from high-content microscopy imaging",
-				"Built and scaled data pipelines processing billions of cell images for large-scale model training and inference",
-				"Learned representations of toxic cellular presentations directly from microscopy images, and used them to predict toxic structures in drug molecules",
-				"Developing multimodal LLMs to interpret visual changes in cellular morphology and classify drugs by mechanism of action"
+				"Built in silico clinical risk models predicting drug-induced liver injury (DILI) from molecular structure (SMILES) — 0.92 AUC (77% sensitivity, 90% specificity) on FDA DILIrank, matching or outperforming industry-standard 2D and 3D spheroid in vitro assays",
+				"Co-designed the underlying 2D multiplexed cytotoxicity assay with biologists and external research labs / CROs, using model interpretability to guide what the assay should measure",
+				"Owned the imaging ML stack end to end: deep-learning segmentation and phenotype quantification, multimodal LLMs for mechanism-of-action classification, and pipelines over 10M+ cell images"
 			],
-			tags: ["Foundation Models", "Microscopy", "Toxicity Prediction", "Multimodal LLMs"]
+			tags: ["Foundation Models", "Drug Safety", "Cell Imaging", "Multimodal LLMs"]
 		},
 		{
 			period: "Jul 2023 - 2024",
@@ -19,31 +18,30 @@
 			company: "Helm AI",
 			summary: "Using deep teaching for foundation models in autonomous vehicles",
 			bullets: [
-				"Trained and fine-tuned UNets, Latent Diffusion Models and DINOv2 for perception and generative simulation to augment real-world data",
-				"Used generative simulation to build physics-informed dash-cam videos for augmenting training data"
+				"Trained and fine-tuned UNets, Latent Diffusion Models and DINO-family models for perception and generative simulation, building physics-informed dash-cam video to augment real-world data",
+				"Built deep-teaching methods for semi-supervised learning of self-driving foundation models; optimized the self-driving SDK for custom architectures, improving on-device latency"
 			],
-			tags: ["Autonomous Vehicles", "Diffusion Models", "DINOv2", "Perception"]
+			tags: ["Autonomous Vehicles", "Diffusion Models", "DINO", "Semi-supervised"]
 		},
 		{
 			period: "May 2022 - Jul 2023",
 			title: "Research Engineer",
 			company: "Google DeepMind",
-			summary: "Google Health: building models for EHR data",
+			summary: "Google Health: clinical ML in research collaboration with Stanford Hospital",
 			bullets: [
-				"Built algorithms to infer patient medical condition from EHR data using T5 transformers",
-				"Improved model stability for clinical risk prediction; work published at ML4H 2022"
+				"Research collaboration with clinicians and researchers at Stanford Hospital on EHR-based patient risk prediction",
+				"Built algorithms to infer patient medical condition from longitudinal EHR data using T5 transformers",
+				"Ran the resulting models in shadow deployment at Stanford against live clinical data",
+				"Surfaced instability in clinical risk-stratification models under distribution shift; published at NeurIPS 22 (ML4H)"
 			],
-			tags: ["Healthcare", "EHR", "Transformers"]
+			tags: ["Clinical ML", "EHR", "Transformers", "NeurIPS 22"]
 		},
 		{
 			period: "Nov 2021 - Mar 2022",
 			title: "ML Engineer",
 			company: "Akasa",
-			summary: "Building multi-modal models for hospital-patient interaction data",
-			bullets: [
-				"Built a context-aware representation for care-provider and patient interactions",
-				"Representation includes health insurance cards and previous medical history of the patient"
-			],
+			summary: "Multi-modal, context-aware representations of care-provider / patient interactions from insurance cards and prior medical history",
+			bullets: [],
 			tags: ["Multi-modal", "Healthcare"]
 		},
 		{
@@ -52,9 +50,8 @@
 			company: "Armorblox",
 			summary: "Building and improving email security using NLP",
 			bullets: [
-				"Time-series based anomaly detection models for account compromise detection",
-				"Out-of-distribution detection on composite features built upon users' email profiles",
-				"Weak supervision to reduce model maintenance as distribution drift occurs"
+				"Built time-series anomaly-detection and out-of-distribution models over composite features from users' email profiles, for account-compromise detection",
+				"Applied weak supervision to cut model maintenance under distribution drift"
 			],
 			tags: ["NLP", "Security", "Anomaly Detection"]
 		},
@@ -65,17 +62,6 @@
 			summary: "Ultra-low-power TinyML for iyo",
 			bullets: [],
 			tags: ["TinyML"]
-		},
-		{
-			period: "May - Aug 2019",
-			title: "Applied Science Intern",
-			company: "Alexa AI",
-			summary: "Implicit Memory at Alexa Brain",
-			bullets: [
-				"Conversational question answering in the context of agents like Alexa",
-				"Noise-robust embeddings through stability training and adversarial noise-domain adaptation"
-			],
-			tags: ["NLP", "Question Answering", "Robustness"]
 		}
 	];
 </script>

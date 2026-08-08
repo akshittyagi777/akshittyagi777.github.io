@@ -5,18 +5,21 @@
 			<div class="content-grid">
 				<div class="main-text prose">
 					<p>
-						I am a Founding Member of Technical Staff at Axiom, where I work on foundation models for
-						biology, autonomy and healthcare — cellular phenotyping and drug discovery in particular.
-						I graduated with an MS CS from the College of Information and Computer Sciences
-						<a href="https://www.cics.umass.edu/">(CICS)</a> at <a href="http://www.umass.edu">UMass, Amherst</a>.
-						Before that, I was an undergrad at <a href="http://www.iitd.ac.in/">IIT, Delhi</a>.
+						I am a Founding Member of Technical Staff at Axiom, where I build multimodal foundation
+						models for cellular phenotyping and drug safety. My work there spans in silico clinical
+						risk models that predict drug-induced liver injury from molecular structure, co-designing
+						the multiplexed cytotoxicity assay those models learn from, and the imaging ML stack
+						underneath — segmentation, phenotype quantification, and the pipelines feeding both.
 					</p>
 
 					<p>
-						Most recently I have been using high-content microscopy images to learn what toxic
-						presentations in cells look like, and using those learned representations to predict toxic
-						structures in drug molecules. More broadly, I am interested in multimodal models for
-						biology, and in the calibration and robustness of models used for high-stakes decisions.
+						Before Axiom I worked on foundation models for autonomous driving at Helm AI, and on
+						clinical ML at Google DeepMind in research collaboration with clinicians at Stanford
+						Hospital — where we surfaced how risk-stratification models that look equivalent in
+						aggregate can disagree on individual patients. I graduated with an
+						MS CS from the College of Information and Computer Sciences
+						<a href="https://www.cics.umass.edu/">(CICS)</a> at <a href="http://www.umass.edu">UMass, Amherst</a>,
+						and was an undergrad at <a href="http://www.iitd.ac.in/">IIT, Delhi</a>.
 					</p>
 				</div>
 				
@@ -36,8 +39,8 @@
 							<div class="research-item">
 								<div class="research-icon">🧪</div>
 								<div>
-									<strong>Toxicity Prediction</strong>
-									<span>From cell images to toxic molecular structures</span>
+									<strong>Drug Safety</strong>
+									<span>DILI risk prediction from molecular structure</span>
 								</div>
 							</div>
 						</li>
@@ -54,8 +57,8 @@
 							<div class="research-item">
 								<div class="research-icon">🏥</div>
 								<div>
-									<strong>ML for Healthcare</strong>
-									<span>Calibration, robustness and causal inference</span>
+									<strong>Clinical ML</strong>
+									<span>Reliability under distribution shift</span>
 								</div>
 							</div>
 						</li>

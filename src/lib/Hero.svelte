@@ -18,11 +18,12 @@
 			<div class="hero-text" class:animate={mounted}>
 				<h1>Akshit Tyagi</h1>
 				<p class="subtitle">Founding Member of Technical Staff @ Axiom</p>
-				<p class="tagline">Foundation Models for Biology, Autonomy &amp; Healthcare</p>
+				<p class="tagline">Foundation Models for Biology &amp; Health</p>
 				<p class="description">
-					I work on cellular phenotyping from high-content microscopy — including using cell images
-					to learn what toxic presentations in cells look like, and using that to predict toxic
-					structures in drug molecules. MS CS from UMass Amherst, BTech from IIT Delhi.
+					I build multimodal foundation models for cellular phenotyping and drug safety — predicting
+					drug-induced liver injury from molecular structure, and the cell imaging stack behind it.
+					Previously foundation models for autonomous driving, and clinical ML at Google
+					DeepMind with Stanford Hospital.
 				</p>
 			</div>
 		</div>
