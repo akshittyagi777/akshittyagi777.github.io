@@ -36,6 +36,6 @@ declare module "$app/types" {
 		};
 		Pathname(): "/";
 		ResolvedPathname(): `${"" | `/${string}`}${ReturnType<AppTypes['Pathname']>}`;
-		Asset(): "/.DS_Store" | "/files/noisyCoqa.pdf" | "/files/pyg.css" | "/files/styles.css" | "/images/favicon.png" | "/images/fp2.jpg" | "/images/profile.jpg" | string & {};
+		Asset(): "/.DS_Store" | "/files/Akshit_cv.pdf" | "/files/noisyCoqa.pdf" | "/files/pyg.css" | "/files/styles.css" | "/images/favicon.png" | "/images/fp2.jpg" | "/images/profile.jpg" | string & {};
 	}
 }
