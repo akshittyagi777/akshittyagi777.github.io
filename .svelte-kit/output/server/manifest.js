@@ -7,10 +7,10 @@ function __memo(fn) {
 return {
 	appDir: "_app",
 	appPath: "_app",
-	assets: new Set([".DS_Store","files/Akshit_cv.pdf","files/noisyCoqa.pdf","files/pyg.css","files/styles.css","images/favicon.png","images/fp2.jpg","images/profile.jpg"]),
+	assets: new Set([".DS_Store","files/Akshit_Tyagi_CV_res.pdf","files/Akshit_cv.pdf","files/noisyCoqa.pdf","files/pyg.css","files/styles.css","images/favicon.png","images/fp2.jpg","images/profile.jpg"]),
 	mimeTypes: {".pdf":"application/pdf",".css":"text/css",".png":"image/png",".jpg":"image/jpeg"},
 	_: {
-		client: {start:"_app/immutable/entry/start.DC9yMxoM.js",app:"_app/immutable/entry/app.C3-a_DPc.js",imports:["_app/immutable/entry/start.DC9yMxoM.js","_app/immutable/chunks/tqa8O5Gh.js","_app/immutable/chunks/D-6aCaAD.js","_app/immutable/entry/app.C3-a_DPc.js","_app/immutable/chunks/D-6aCaAD.js","_app/immutable/chunks/IHki7fMi.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
+		client: {start:"_app/immutable/entry/start.ByrWeQ3J.js",app:"_app/immutable/entry/app.CaxU9kLJ.js",imports:["_app/immutable/entry/start.ByrWeQ3J.js","_app/immutable/chunks/zEfyAMaW.js","_app/immutable/chunks/D-6aCaAD.js","_app/immutable/entry/app.CaxU9kLJ.js","_app/immutable/chunks/D-6aCaAD.js","_app/immutable/chunks/IHki7fMi.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js'))
