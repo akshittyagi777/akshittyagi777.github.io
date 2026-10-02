@@ -1,6 +1,13 @@
 <script>
 	const projects = [
 		{
+			org: "Independent",
+			title: "Local-First Health Agent Harness",
+			venue: "In progress",
+			description: "Built a harness around LLM calls for a person's own health records (Epic FHIR R4 and C-CDA) and wearable data (WHOOP, Garmin): context assembled under a hard token budget, stale and contradictory records resolved before the prompt, routing across model tiers, and a full decision trace for every turn. Enforced in code that EHR content never reaches a model API: outgoing prompts are scrubbed to category placeholders and checked against a denylist built on-device, and record questions are answered locally.",
+			tags: ["LLM Agents", "Health Data", "Privacy", "Evaluation"]
+		},
+		{
 			org: "Axiom",
 			title: "DILI Assay Development & Structure-to-Risk Modeling",
 			venue: "Presented at SoT 2025",
