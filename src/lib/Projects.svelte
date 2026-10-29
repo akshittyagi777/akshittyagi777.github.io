@@ -10,6 +10,13 @@
 			tags: ["LLM Agents", "Health Data", "Privacy", "Evaluation"]
 		},
 		{
+			org: "Independent",
+			title: "Calibration of Pathology Foundation Models under Cross-Hospital Shift",
+			venue: "ML4H 2026 (Proceedings Track)",
+			description: "Pathology foundation models are evaluated almost entirely on top-1 accuracy, yet clinical pipelines — triage, auto-approval, review-queue routing — read the predicted probability as a probability. A calibration benchmark across eight public PFMs, four patch-level tasks and five calibration metrics, with a leave-one-center-out stress test on Camelyon17 and a post-hoc recalibration sweep. Three of the eight degrade to 53–59% accuracy on a single held-out hospital while assigning confidence above 0.97 to many incorrect predictions, and Camelyon17-WILDS' default split hides it. Post-hoc recalibration rescues the robust models but barely helps the affected ones, so the recommendation is a leave-one-center-out check before deployment.",
+			tags: ["Calibration", "Pathology FMs", "Distribution Shift", "Benchmark"]
+		},
+		{
 			org: "Axiom",
 			title: "DILI Assay Development & Structure-to-Risk Modeling",
 			venue: "Presented at SoT 2025",
